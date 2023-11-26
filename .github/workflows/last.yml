@@ -12,7 +12,7 @@ jobs:
         contents: write
       steps:
         - name: Last.fm  - Recently listed
-          uses: frieren-mage/metrics@latest
+          uses: frieren-mage/metrics
           with:
             filename: metrics.plugin.lastfm.svg
             token: NOT_NEEDED
